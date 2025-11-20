@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Dashboard from "./pages/Dashboard";
 import PasswordTool from "./pages/PasswordTool";
-import IpLookupTool from "./pages/IpLookupTool";
+import IpLookupTool from "./pages/IplookupTool";
 
 import ThreatFeed from "./pages/ThreatFeed";
 import HashChecker from "./pages/HashChecker";
