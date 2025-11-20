@@ -31,7 +31,7 @@ const Sidebar = () => {
       {/* Sidebar Top */}
       <div className="flex items-center justify-between px-4 py-6">
         <h1 className={`text-xl font-bold tracking-wide ${!open && "hidden"}`}>
-          CyberDash
+          OLLYKAY
         </h1>
         <Menu className="cursor-pointer" onClick={() => setOpen(!open)} />
       </div>
