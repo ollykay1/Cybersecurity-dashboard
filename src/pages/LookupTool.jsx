@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { lookupIP } from "../utils/IpLookup";
+import { lookupIP } from "../utils/ipLookup";
 
 const LookupTool = () => {
   const [ip, setIp] = useState("");
