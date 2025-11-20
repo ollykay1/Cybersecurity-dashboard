@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { lookupIP } from "../utils/IpLookup";
 
-const IpLookupTool = () => {
+const LookupTool = () => {
   const [ip, setIp] = useState("");
   const [data, setData] = useState(null);
 
@@ -38,4 +38,4 @@ const IpLookupTool = () => {
   );
 };
 
-export default IpLookupTool;
+export default LookupTool;

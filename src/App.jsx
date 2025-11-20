@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Dashboard from "./pages/Dashboard";
 import PasswordTool from "./pages/PasswordTool";
-import IpLookupTool from "./pages/IpLookupTool";
+import LookupTool from "./pages/LookupTool";
 
 
 import ThreatFeed from "./pages/ThreatFeed";
@@ -15,7 +15,7 @@ const App = () => {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/password" element={<PasswordTool />} />
-          <Route path="/iplookup" element={<IpLookupTool />} />
+          <Route path="/iplookup" element={<LookupTool />} />
           <Route path="/threats" element={<ThreatFeed />} />
           <Route path="/hash" element={<HashChecker />} />
           <Route path="/monitor" element={<SystemMonitor />} />
